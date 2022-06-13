@@ -1,0 +1,34 @@
+-> GIT BASH <-
+
+1º -> Abrir git bash direto na pasta
+2º -> git init //inicia um repositorio vazio
+3º -> ls e ls - a //opcional - para mostrar lista de itens ocutos
+4º -> git add *
+5º -> git commit -m "mensagem que vai junto com o commit"
+6º -> git status //'on branch master nothing to commit, working tree clean'
+7º -> echo > README.md
+8º -> ls
+9º -> git status
+10º -> git add * 
+11º -> git commit -m "mensagem aqui"
+
+
+-> GITHUB <-
+1º Criar repositório
+2º copiar link url de endereço do repositório
+
+-> GIT BASH - apontar para o repositório <-
+1º -> git remote add origin 'link sem as aspas'
+2º -> git remote -v //deve retornar duas origin
+3º -> git status //para ver se não precisa enviar mais nada
+4º -> git push origin master //ira pedir usuário e senha/key
+
+
+
+
+-> PARA CONFIGURAR GIT BASH <-
+1º -> git config --global user.email "juliadarcviana@gmail.com"
+2º -> git config --global user.name Julia-Darc
+3º -> git config --list //ver lista de configuração
+4º -> git config --global --unset user.mail //resetar email
+5º -> git config --global --unset user.name //resetar nome de usuário
